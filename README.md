@@ -119,3 +119,5 @@ Ideas:
 - `generate_odata_service` — expose the RAP BO as an OData V4 service
 - `run_atc_check` — run ABAP Test Cockpit on generated objects
 - `compare_behavior` — run both old + new, compare DB results
+# mcp-rap-migrator
+
