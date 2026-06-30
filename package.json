@@ -1,0 +1,18 @@
+{
+  "name": "mcp-rap-migrator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build":     "tsc",
+    "start":     "node --env-file=.env dist/index.js",
+    "dev":       "npx @modelcontextprotocol/inspector node --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
